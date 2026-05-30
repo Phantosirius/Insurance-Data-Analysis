@@ -2,3 +2,10 @@ streamlit
 pandas
 scikit-learn
 matplotlib
+numpy
+seaborn
+plotly
+openpyxl
+jupyter
+ipykernel
+nbformat
