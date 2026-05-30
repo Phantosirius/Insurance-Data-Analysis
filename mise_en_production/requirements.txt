@@ -4,7 +4,8 @@ scikit-learn
 matplotlib
 numpy
 seaborn
-plotly
+plotly>=5.15.0
+statsmodels>=0.14.0
 openpyxl
 jupyter
 ipykernel
