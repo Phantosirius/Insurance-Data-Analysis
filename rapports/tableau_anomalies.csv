@@ -1,0 +1,18 @@
+﻿Table,Colonne,Type,Nb lignes,Retraitement
+Dossiers,Plusieurs,Valeur '???',14995,Remplacement par NaN
+Dossiers,date.ouverture,Format invalide (heure incluse ou valeur non reconnue),38,Mise à NaN
+Dossiers,date.de.survenance,Format/valeur invalide,1028,Mise à NaN
+Dossiers,Type.d.energie/Outil/Assist.,Décalage colonnes (Distance_survenance présente),28,Corrigé par shift
+Dossiers,Cause.intervention,Date dans colonne cause,28,Mise à NaN
+Dossiers,Type.d.energie,Valeur hors référentiel,24,Mise à NaN
+Dossiers,Assistance.ou.Administratif,Valeur hors référentiel,28,Mise à NaN
+Dossiers,Formule,Valeurs manquantes,5945,Conservées comme NaN
+Dossiers,Cause.intervention,Valeurs manquantes,1027,Conservées comme NaN
+Dossiers,Type.d.energie,Valeurs manquantes,1022,Conservées comme NaN
+Dossiers,Matricule.de.traitement,Dossiers créés automatiquement (matricule 171),4087,Flag flag_auto_creation = 1
+Temps,duree.corrigee,Durée > 8h (28 800 sec),1,Conservées avec flag
+Temps,Date.debut.traitement,Valeurs manquantes,263702,Conservées comme NaN
+Temps,duree.corrigee,Valeurs manquantes,47471,Conservées comme NaN
+Ressources,Date.presence,Format date invalide,2,Mise à NaT
+Ressources,Temps.travail,"Hors {30,50,70,80,100}",51833,Conservées — à documenter
+Ressources,Type.de.contrat,Hors CDI/CDD/CDS,7,Mise à NaN

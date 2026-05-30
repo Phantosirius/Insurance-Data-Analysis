@@ -1,0 +1,5 @@
+﻿,RMSE,MAE,R²
+Random Forest,18.05,8.55,0.733
+Gradient Boosting,18.17,8.6,0.729
+Arbre de décision,18.61,8.74,0.716
+Régression linéaire,19.09,9.42,0.701
